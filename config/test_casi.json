@@ -1,0 +1,35 @@
+{
+  "anagrafica": [
+    ["123456", "T. Ing. Informatica", "2023-01-04", "GIANLUIGI", "DONNARUMMA", "29-08-2016"],
+    ["234567", "M. Ing. Elettronica", "2023-01-04", "ALESSANDRO", "BASTONI", "24-10-2018"],
+    ["345678", "T. Ing. Informatica", "2023-01-04", "NICCOLO", "BARELLA", "29-07-2019"],
+    ["456789", "T. Ing. delle Telecomunicazioni", "2023-01-04", "MATTEO", "POLITANO", "25-07-2019"]
+  ],
+  "bonus": [
+    ["123456", "2023-01-04", false],
+    ["345678", "2023-01-04", true]
+  ],
+  "esami": [
+    ["123456", "T. Ing. Informatica", "2023-01-04", 23],
+    ["234567", "M. Ing. Elettronica", "2023-01-04", 12],
+    ["345678", "T. Ing. Informatica", "2023-01-04", 22],
+    ["456789", "T. Ing. delle Telecomunicazioni", "2023-01-04", 13]
+  ],
+  "calcoli": [
+    ["123456", "T. Ing. Informatica", "2023-01-04", 23.603, 174, 177, 177, 23.667],
+    ["234567", "M. Ing. Elettronica", "2023-01-04", 24.559, 102, 102, 102, null],
+    ["345678", "T. Ing. Informatica", "2023-01-04", 25.564, 165, 177, 177, 25.75],
+    ["456789", "M. Ing. delle Telecomunicazioni", "2023-01-04", 32.625, 96, 96, 96, null]
+  ],
+  "cdl_supportati": [
+    "T. Ing. Biomedica",
+    "T. Ing. Elettronica",
+    "T. Ing. Informatica",
+    "T. Ing. delle Telecomunicazioni",
+    "M. Ing. Biomedica, Bionics Engineering",
+    "M. Ing. Elettronica",
+    "M. Computer Engineering, Artificial Intelligence and Data Enginering",
+    "M. Ing. Robotica e della Automazione",
+    "M. Ing. delle Telecomunicazioni"
+  ]
+}

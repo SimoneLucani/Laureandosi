@@ -1,0 +1,119 @@
+{
+	"T. Ing. Biomedica": {
+		"formula": "(110/27.17)*(M*CFU+T*3)/(CFU+3)",
+		"crediti_totali": 177,
+		"valore_lode": 33,
+		"info_parametro": {
+			"param": "T",
+			"min": 18,
+			"max": 30,
+			"step": 1
+		},
+		"msg_commissione": "scegli voto di tesi, prendi il corrispondente voto di laurea ed arrotonda",
+		"corpo_email": "Gentile laureando/laureanda,\nAllego un prospetto contenente: la sua carriera, gli indicatori e la formula che la commissione adopererà perdeterminare il voto di laurea.\nLa prego di prendere visione dei dati relativi agli esami.\nIn caso di dubbi scrivere a: vittoria.dattilo@unipi.it\n\nAlcune spiegazioni:\n- gli esami che non hanno un voto in trentesimi, hanno voto nominale zero al posto di giudizio o idoneità, in quanto non contribuiscono al calcolo della media ma solo al numero di crediti curriculari;\n- gli esami che non fanno media (pur contribuendo ai crediti curriculari) non hanno la spunta nella colonna MED.\n\nCordiali saluti \nUnità Didattica DII"
+	},
+	"T. Ing. Elettronica": {
+		"formula": "2+4*(M*CFU+T*3)/(CFU+3)",
+		"crediti_totali": 177,
+		"valore_lode": 32,
+		"info_parametro": {
+			"param": "T",
+			"min": 18,
+			"max": 33,
+			"step": 1
+		},
+		"msg_commissione": "scegli voto di tesi, prendi il corrispondente voto di laurea ed arrotonda",
+		"corpo_email": "Gentile laureando/laureanda,\nAllego un prospetto contenente: la sua carriera, gli indicatori e la formula che la commissione adopererà perdeterminare il voto di laurea.\nLa prego di prendere visione dei dati relativi agli esami.\nIn caso di dubbi scrivere a: vittoria.dattilo@unipi.it\n\nAlcune spiegazioni:\n- gli esami che non hanno un voto in trentesimi, hanno voto nominale zero al posto di giudizio o idoneità, in quanto non contribuiscono al calcolo della media ma solo al numero di crediti curriculari;\n- gli esami che non fanno media (pur contribuendo ai crediti curriculari) non hanno la spunta nella colonna MED.\n\nCordiali saluti \nUnità Didattica DII"
+	},
+	"T. Ing. Informatica": {
+		"formula": "M*3+18+T+C",
+		"crediti_totali": 177,
+		"valore_lode": 33,
+		"info_parametro": {
+			"param": "C",
+			"min": 1,
+			"max": 7,
+			"step": 1
+		},
+		"msg_commissione": "scegli voto commissione, prendi il corrispondente voto di laurea e somma il voto di tesi tra 1 e 3, quindi arrotonda",
+		"corpo_email": "Gentile laureando/laureanda,\nAllego un prospetto contenente: la sua carriera, gli indicatori e la formula che la commissione adopererà perdeterminare il voto di laurea.\nLa prego di prendere visione dei dati relativi agli esami.\nIn caso di dubbi scrivere a: vittoria.dattilo@unipi.it\n\nAlcune spiegazioni:\n- gli esami che non hanno un voto in trentesimi, hanno voto nominale zero al posto di giudizio o idoneità, in quanto non contribuiscono al calcolo della media ma solo al numero di crediti curriculari;\n- gli esami che non fanno media (pur contribuendo ai crediti curriculari) non hanno la spunta nella colonna MED;\n- il voto di tesi (T) appare nominalmente a zero in quanto verrà determinato in sede di laurea, e va da 18 a 30.\n\nCordiali saluti \nUnità Didattica DII"
+	},
+	"T. Ing. delle Telecomunicazioni": {
+		"formula": "M*11/3+C",
+		"crediti_totali": 177,
+		"valore_lode": 33,
+		"info_parametro": {
+			"param": "C",
+			"min": 1,
+			"max": 11,
+			"step": 1
+		},
+		"msg_commissione": "scegli voto di commissione, prendi il corrispondente voto di laurea ed arrotonda",
+		"corpo_email": "Gentile laureando/laureanda,\nAllego un prospetto contenente: la sua carriera, gli indicatori e la formula che la commissione adopererà perdeterminare il voto di laurea.\nLa prego di prendere visione dei dati relativi agli esami.\nIn caso di dubbi scrivere a: vittoria.dattilo@unipi.it\n\nAlcune spiegazioni:\n- gli esami che non hanno un voto in trentesimi, hanno voto nominale zero al posto di giudizio o idoneità, in quanto non contribuiscono al calcolo della media ma solo al numero di crediti curriculari;\n- gli esami che non fanno media (pur contribuendo ai crediti curriculari) non hanno la spunta nella colonna MED.\n\nCordiali saluti \nUnità Didattica DII"
+	},
+	"M. Ing. Biomedica, Bionics Engineering": {
+		"formula": "M*3.5+11+C",
+		"crediti_totali": 105,
+		"valore_lode": 33,
+		"info_parametro": {
+			"param": "C",
+			"min": 0.5,
+			"max": 4,
+			"step": 0.5
+		},
+		"msg_commissione": "scegli voto di commissione, prendi il corrispondente voto di laurea ed arrotonda",
+		"corpo_email": "Gentile laureando/laureanda,\nAllego un prospetto contenente: la sua carriera, gli indicatori e la formula che la commissione adopererà perdeterminare il voto di laurea.\nLa prego di prendere visione dei dati relativi agli esami.\nIn caso di dubbi scrivere a: vittoria.dattilo@unipi.it\n\nAlcune spiegazioni:\n- gli esami che non hanno un voto in trentesimi, hanno voto nominale zero al posto di giudizio o idoneità, in quanto non contribuiscono al calcolo della media ma solo al numero di crediti curriculari;\n- gli esami che non fanno media (pur contribuendo ai crediti curriculari) non hanno la spunta nella colonna MED.\n\nCordiali saluti \nUnità Didattica DII"
+	},
+	"M. Ing. Elettronica": {
+		"formula": "4*(M*CFU+T*18)/(CFU+18)",
+		"crediti_totali": 102,
+		"valore_lode": 33,
+		"info_parametro": {
+			"param": "T",
+			"min": 18,
+			"max": 30,
+			"step": 1
+		},
+		"msg_commissione": "scegli voto di tesi, prendi il corrispondente voto di laurea ed arrotonda",
+		"corpo_email": "Gentile laureando/laureanda,\nAllego un prospetto contenente: la sua carriera, gli indicatori e la formula che la commissione adopererà perdeterminare il voto di laurea.\nLa prego di prendere visione dei dati relativi agli esami.\nIn caso di dubbi scrivere a: vittoria.dattilo@unipi.it\n\nAlcune spiegazioni:\n- gli esami che non hanno un voto in trentesimi, hanno voto nominale zero al posto di giudizio o idoneità, in quanto non contribuiscono al calcolo della media ma solo al numero di crediti curriculari;\n- gli esami che non fanno media (pur contribuendo ai crediti curriculari) non hanno la spunta nella colonna MED.\n\nCordiali saluti \nUnità Didattica DII"
+	},
+	"M. Computer Engineering, Artificial Intelligence and Data Enginering": {
+		"formula": "M*3+22+T+C",
+		"crediti_totali": 96,
+		"valore_lode": 33,
+		"info_parametro": {
+			"param": "C",
+			"min": 1,
+			"max": 3,
+			"step": 1
+		},
+		"msg_commissione": "scegli voto di commissione, prendi il corrispondente voto di laurea ed arrotonda",
+		"corpo_email": "Gentile laureando/laureanda,\nAllego un prospetto contenente: la sua carriera, gli indicatori e la formula che la commissione adopererà perdeterminare il voto di laurea.\nLa prego di prendere visione dei dati relativi agli esami.\nIn caso di dubbi scrivere a: vittoria.dattilo@unipi.it\n\nAlcune spiegazioni:\n- gli esami che non hanno un voto in trentesimi, hanno voto nominale zero al posto di giudizio o idoneità, in quanto non contribuiscono al calcolo della media ma solo al numero di crediti curriculari;\n- gli esami che non fanno media (pur contribuendo ai crediti curriculari) non hanno la spunta nella colonna MED.\n\nCordiali saluti \nUnità Didattica DII"
+	},
+	"M. Ing. Robotica e della Automazione": {
+		"formula": "M*3+18.5+T",
+		"crediti_totali": 102,
+		"valore_lode": 33,
+		"info_parametro": {
+			"param": "T",
+			"min": 1,
+			"max": 10,
+			"step": 1
+		},
+		"msg_commissione": "scegli voto di tesi, prendi il corrispondente voto di laurea ed arrotonda",
+		"corpo_email": "Gentile laureando/laureanda,\nAllego un prospetto contenente: la sua carriera, gli indicatori e la formula che la commissione adopererà perdeterminare il voto di laurea.\nLa prego di prendere visione dei dati relativi agli esami.\nIn caso di dubbi scrivere a: vittoria.dattilo@unipi.it\n\nAlcune spiegazioni:\n- gli esami che non hanno un voto in trentesimi, hanno voto nominale zero al posto di giudizio o idoneità, in quanto non contribuiscono al calcolo della media ma solo al numero di crediti curriculari;\n- gli esami che non fanno media (pur contribuendo ai crediti curriculari) non hanno la spunta nella colonna MED.\n\nCordiali saluti \nUnità Didattica DII"
+	},
+	"M. Ing. delle Telecomunicazioni": {
+		"formula": "M*11/3+C",
+		"crediti_totali": 96,
+		"valore_lode": 33,
+		"info_parametro": {
+			"param": "C",
+			"min": 1,
+			"max": 11,
+			"step": 1
+		},
+		"msg_commissione": "scegli voto di commissione, prendi il corrispondente voto di laurea ed arrotonda",
+		"corpo_email": "Gentile laureando/laureanda,\nAllego un prospetto contenente: la sua carriera, gli indicatori e la formula che la commissione adopererà perdeterminare il voto di laurea.\nLa prego di prendere visione dei dati relativi agli esami.\nIn caso di dubbi scrivere a: vittoria.dattilo@unipi.it\n\nAlcune spiegazioni:\n- gli esami che non hanno un voto in trentesimi, hanno voto nominale zero al posto di giudizio o idoneità, in quanto non contribuiscono al calcolo della media ma solo al numero di crediti curriculari;\n- gli esami che non fanno media (pur contribuendo ai crediti curriculari) non hanno la spunta nella colonna MED.\n\nCordiali saluti \nUnità Didattica DII"
+	}
+}

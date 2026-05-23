@@ -1,0 +1,208 @@
+* {
+    color: rgb(0, 118, 185);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Contenitore principale */
+.form-container {
+    border: 2px solid rgb(0, 118, 185);
+    background-color: rgb(219, 234, 247);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30pt;
+    width: max-content;
+}
+
+/* Intestazione */
+.form-header {
+    height: 80pt;
+    font-size: 30pt;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Corpo con le 3 colonne */
+.form-body {
+    height: 270pt;
+    display: grid;
+    grid-template-columns: 230pt 230pt 230pt;
+}
+
+/* Singola colonna */
+.form-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+}
+
+/* Input matricole */
+textarea {
+    width: 230pt;
+    height: 230pt;
+    border: 1.5pt solid rgb(0, 118, 185);
+    border-radius: 3px;
+    box-sizing: border-box;
+    padding: 6px;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 13px;
+    resize: vertical;
+    outline: none;
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+textarea:focus {
+    border-color: rgb(0, 80, 130);
+    box-shadow: 0 0 0 2px rgba(0, 118, 185, 0.2);
+}
+
+/* Pulsanti */
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(0, 118, 185);
+    background-color: rgb(219, 234, 247);
+    cursor: pointer;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-bottom: 3px solid rgb(0, 80, 130);
+    border-right: 3px solid rgb(0, 80, 130);
+    border-radius: 4px;
+    margin-bottom: 20px;
+    transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+button:not(:disabled):hover {
+    background-color: rgb(0, 118, 185);
+    color: white;
+}
+
+button:active {
+    border: 2px solid rgb(0, 80, 130);
+    transform: translateY(2px);
+}
+
+button:disabled {
+    background-color: rgb(180, 210, 235) !important;
+    color: rgb(120, 160, 190) !important;
+    border-top: 2px solid rgb(200, 225, 245);
+    border-left: 2px solid rgb(200, 225, 245);
+    border-bottom: 3px solid rgb(150, 190, 220);
+    border-right: 3px solid rgb(150, 190, 220);
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+/* Label */
+.info {
+    font-size: 12pt;
+}
+
+/* Select */
+select {
+    width: 50%;
+    margin-bottom: 50pt;
+    font-size: 16px;
+    border: 1.5pt solid rgb(0, 118, 185);
+    border-radius: 3px;
+    padding: 4px 6px;
+    color: rgb(0, 118, 185);
+    font-family: 'Segoe UI', sans-serif;
+    outline: none;
+    cursor: pointer;
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+select:focus {
+    border-color: rgb(0, 80, 130);
+    box-shadow: 0 0 0 2px rgba(0, 118, 185, 0.2);
+}
+
+/* Input data */
+input[type="date"] {
+    font-size: 13px;
+    border: 1.5pt solid rgb(0, 118, 185);
+    border-radius: 3px;
+    padding: 4px 6px;
+    color: rgb(0, 118, 185);
+    font-family: 'Segoe UI', sans-serif;
+    outline: none;
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+input[type="date"]:focus {
+    border-color: rgb(0, 80, 130);
+    box-shadow: 0 0 0 2px rgba(0, 118, 185, 0.2);
+}
+
+/* Link Visualizza Prospetti */
+a {
+    text-decoration: none;
+}
+
+.link-prospetto p {
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0 0 20px 0;
+}
+
+/* Stato disabilitato */
+.link-prospetto.disabilitato {
+    pointer-events: none;
+    cursor: not-allowed;
+}
+
+.link-prospetto.disabilitato p {
+    color: rgb(120, 160, 190);
+    text-decoration: none;
+}
+
+/* Stato attivo */
+.link-prospetto:not(.disabilitato) p {
+    color: rgb(0, 118, 185);
+    text-decoration: underline;
+    cursor: pointer;
+    transition: color 0.15s ease;
+}
+
+.link-prospetto:not(.disabilitato) p:hover {
+    color: rgb(0, 80, 130);
+}
+
+/* Area errori */
+.error-section {
+    width: 700pt;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10pt;
+}
+
+/* Titolo modalita test — nascosto di default */
+.titolo-test {
+    display: none;
+}
+
+/* Modalita test */
+body.modalita-test {
+    background-color: rgb(219, 234, 247);
+}
+
+/* Nasconde il form */
+body.modalita-test .form-container {
+    display: none;
+}
+
+/* Mostra il titolo */
+body.modalita-test .titolo-test {
+    display: block;
+    font-size: 30pt;
+    font-weight: bold;
+    margin-top: 20pt;
+    text-align: center;
+}

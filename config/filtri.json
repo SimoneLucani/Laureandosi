@@ -1,0 +1,87 @@
+{
+	"T. Ing. Biomedica": {
+		"*": {
+			"non_media": [],
+			"da_togliere": [
+				"PROVA FINALE"
+			]
+		}
+	},
+	"T. Ing. Elettronica": {
+		"*": {
+			"non_media": [],
+			"da_togliere": [
+				"PROVA FINALE"
+			]
+		}
+	},
+	"T. Ing. Informatica": {
+		"*": {
+			"non_media": [
+				"PROVA DI LINGUA INGLESE (B1)",
+				"PROVA DI LINGUA INGLESE",
+				"PROVA DI LINGUA INGLESE B2",
+				"TIROCINIO"
+			],
+			"da_togliere": [
+				"PROVA FINALE",
+				"LIBERA SCELTA PER RICONOSCIMENTI",
+				"TEST DI VALUTAZIONE DI INGEGNERIA"
+			]
+		},
+		"123456": {
+			"non_media": [
+				"ESEMPIO"
+			],
+			"da_togliere": []	
+		}
+	},
+	"T. Ing. delle Telecomunicazioni": {
+		"*": {
+			"non_media": [],
+			"da_togliere": [
+				"PROVA FINALE"
+			]
+		}
+	},
+	"M. Ing. Biomedica, Bionics Engineering": {
+		"*": {
+			"non_media": [],
+			"da_togliere": [
+				"PROVA FINALE"
+			]
+		}
+	},
+	"M. Ing. Elettronica": {
+		"*": {
+			"non_media": [],
+			"da_togliere": [
+				"PROVA FINALE"
+			]
+		}
+	},
+	"M. Computer Engineering, Artificial Intelligence and Data Enginering": {
+		"*": {
+			"non_media": [],
+			"da_togliere": [
+				"PROVA FINALE"
+			]
+		}
+	},
+	"M. Ing. Robotica e della Automazione": {
+		"*": {
+			"non_media": [],
+			"da_togliere": [
+				"PROVA FINALE"
+			]
+		}
+	},
+	"M. Ing. delle Telecomunicazioni": {
+		"*": {
+			"non_media": [],
+			"da_togliere": [
+				"PROVA FINALE"
+			]
+		}
+	}
+}
