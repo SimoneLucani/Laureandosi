@@ -13,7 +13,7 @@ The system automates and streamlines the graduation workflow for the university'
 * **Backend:** PHP.
 * **Frontend:** HTML, CSS.
 
-## Getting Started
+## How to Run
 This is a standard PHP web application and can be served using any local development stack (such as Local, XAMPP, Apache/Nginx, or the built-in PHP development server).
 
 1. Clone or download the repository to your local web root.
